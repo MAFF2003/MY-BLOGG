@@ -1,0 +1,75 @@
+* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+assets/css/typography.css
+css
+/* Typography styles */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #34495e;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #7f8c8d;
+  margin-bottom: 0.6rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+p strong {
+  font-weight: 700;
+}
+
+p em {
+  font-style: italic;
+}
+
+p u {
+  text-decoration: underline;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+blockquote {
+  border-left: 4px solid #0e1011;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #7f8c8d;
+}
